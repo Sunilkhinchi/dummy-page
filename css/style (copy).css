@@ -1,0 +1,139 @@
+ * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --pink: #ef2a82;
+    --blue: #172755;
+  }
+
+body{
+    /* border: 5px solid #ef2a82; */
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.btn-cus{
+border-radius: 68px;
+padding: 10px 53px 10px 53px;
+color: #8794ba;
+border: 1px solid transparent;
+
+}
+
+.btn-cus-pink {
+    background: var(--pink);
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 80px;
+    border: 1px solid transparent;
+}
+
+
+.btn-cus-pink:hover {
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 80px;
+    border: 1px solid var(--pink) !important;
+    color: #ef2a82 !important;
+}
+
+.header-section-inner {
+    top: 25px;
+}
+
+.btn-cus:hover{
+    color: #8794ba;
+    border: 1px solid #8794ba;
+    }
+
+.nav-bar-cus li.nav-item a.nav-link {
+    color: #8794ba;
+}
+
+.nav-bar-cus li.nav-item:hover a.nav-link {
+    color: hsl(225, 47%, 52%);
+}
+
+.second-section-bg{
+    background-color: var(--blue);
+    height: 300px;
+}
+.second-section-bg-out {
+    position: relative;
+    padding: 0px;
+    z-index: 0;
+} 
+
+.second-section-bg-2 {
+    width: 100%;
+    border-left: 2000px solid var(--blue);
+    border-top: 100px solid var(--blue);
+    border-bottom: 146px solid transparent;
+    position: absolute;
+    bottom: 20px;
+}
+.second-section-bg-3 {
+    width: 100%;
+    border-left: 2000px solid var(--pink);
+    border-top: 100px solid var(--pink);
+    border-bottom: 146px solid transparent;
+    
+}
+
+.second-section{
+    /* height: 50vh; */
+    overflow: hidden;
+ }
+
+.header-section-inner {
+    margin: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.second-section-1 .bg-image {
+    width: 100%;
+    height: 800px;
+}
+.second-section-1 .bg-image img{
+    width: 100%;
+    height: 100%;
+}
+
+/* .second-section-1-inner {
+    background: url('/images/background-top.png') no-repeat;
+    background-size: contain;
+    height: 800px;
+    
+} */
+
+.text-section {
+    color: #fff;
+}
+
+.row-text {
+    top: 200px;
+
+
+}
+
+.row-text  .text-section h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+
+}
+
+.row-text  .text-section p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        color: #8794BA;
+
+}
